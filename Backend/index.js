@@ -19,7 +19,7 @@ app.use(cookieparser());
 
 app.use(
     cors({
-        origin: "http://localhost:5174",
+        origin:"https://netflix-kw38.onrender.com",
         credentials: true,
     })
 );
