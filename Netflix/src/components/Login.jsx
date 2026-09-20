@@ -6,7 +6,7 @@ import toast from "react-hot-toast";
 import { useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { setUser } from "../redux/userSlice";
-
+import Backimage from "../Assets/Backimage2.jpg";
 function Login() {
   const [isLogin, setisLogin] = useState(false);
   const [Fullname, setFullname] = useState("");
@@ -87,7 +87,7 @@ function Login() {
       <div className="relative h-screen w-full overflow-hidden">
         <img
           className="absolute inset-0 h-full w-full object-cover"
-          src="./Assets/Backimage2.jpg"
+          src={Backimage}
           alt="Backimage"
         />
 

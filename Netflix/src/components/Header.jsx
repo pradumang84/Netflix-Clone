@@ -7,7 +7,7 @@ import { setUser } from "../redux/userSlice";
 import { useNavigate } from "react-router-dom";
 import toast from "react-hot-toast";
 import { setToggle } from "../redux/movieSlice";
-
+import Logo from "../Assets/Logo.png";
 const Header = () => {
   const user = useSelector((store) => store.app.user);
   const toggle = useSelector((store) => store.movie.toggle);
@@ -42,7 +42,7 @@ const Header = () => {
       {/* Netflix Logo */}
       <img
         className="relative z-[9999] w-40 md:w-52"
-        src="/Assets/Logo.png"
+        src={Logo}
         alt="Netflix Logo"
       />
 
