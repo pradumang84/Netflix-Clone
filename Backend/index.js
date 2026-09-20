@@ -19,7 +19,7 @@ app.use(cookieparser());
 
 app.use(
     cors({
-        origin:"https://netflix-kw38.onrender.com",
+        origin:"https://netflix-clone-ziip.onrender.com",
         credentials: true,
     })
 );
