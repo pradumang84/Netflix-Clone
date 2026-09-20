@@ -7,7 +7,7 @@ import { setUser } from "../redux/userSlice";
 import { useNavigate } from "react-router-dom";
 import toast from "react-hot-toast";
 import { setToggle } from "../redux/movieSlice";
-import Logo from "../Assets/Logo.png";
+import Logo from "../../Assets/Logo.png";
 const Header = () => {
   const user = useSelector((store) => store.app.user);
   const toggle = useSelector((store) => store.movie.toggle);

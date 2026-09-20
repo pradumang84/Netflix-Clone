@@ -6,7 +6,7 @@ import toast from "react-hot-toast";
 import { useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { setUser } from "../redux/userSlice";
-import Backimage from "../Assets/Backimage2.jpg";
+import Backimage from "../../Assets/Backimage2.jpg";
 function Login() {
   const [isLogin, setisLogin] = useState(false);
   const [Fullname, setFullname] = useState("");
